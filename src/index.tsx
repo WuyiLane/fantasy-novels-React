@@ -1,8 +1,9 @@
+// @ts-ignore
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import './styles/border.css'
-import App from './App';
+import App from './App.tsx';
 
 document.documentElement.style.fontSize = document.documentElement.clientWidth / 375 *100 + 'px';
 

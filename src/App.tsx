@@ -1,7 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 import './App.css';
 import './styles/app.css';
-
 function App() {
     const ref = useRef<HTMLDivElement>(null!);
     // 更新dom的时候执行
