@@ -1,9 +1,15 @@
 import './styles.css'
+import {useCallback} from "react";
+import {useNavigate} from "react-router-dom";
 const LoginPage = () =>{
+    const nevigate = useNavigate()
+    const handleIconRegisterClick = useCallback(()=>{
+        nevigate('/register')
+    },[nevigate])
     return <div className="page login-page">
         <div className="tab">
             <div className="tab-item tab-item-left">登录</div>
-            <div className="tab-item tab-item-right">注册</div>
+            <div className="tab-item tab-item-right" onClick={handleIconRegisterClick}>注册</div>
         </div>
         <div className="form">
             <div className="form-item">

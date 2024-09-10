@@ -6,6 +6,7 @@
     padding: .5rem 0 .77rem 0;
     color:#242424;
 }
+/* 不使用前缀-会有样式影响[使用命名空间]*/
 .login-page .tab-item{
     /*在一行上*/
     display: inline-block;
