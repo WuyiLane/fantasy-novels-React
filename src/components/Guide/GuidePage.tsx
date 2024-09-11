@@ -1,5 +1,5 @@
 import React, {useCallback, useEffect, useRef} from 'react';
-import './styles.css';
+import './styles.scss';
 import {useNavigate} from "react-router-dom";
 
 // 处理动画相关的逻辑 自定义hooks

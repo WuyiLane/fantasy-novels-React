@@ -5,12 +5,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f67b0068-a390-4197-b75f-319232457436" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/config/env.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/getHttpsConfig.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/jest/babelTransform.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/jest/cssTransform.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/jest/fileTransform.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/modules.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/paths.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/webpack.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/webpack/persistentCache/createEnvironmentHash.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/webpackDevServer.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/build.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/start.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/useRequest.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Guide/GuidePage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Guide/GuidePage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Guide/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Guide/styles.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Login/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Login/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Login/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Login/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Login/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Login/styles.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Register/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Register/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Register/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Register/styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/react-app-env.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/react-app-env.d.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -29,21 +47,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;your-new-branch-lesson-8-loginout&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/React18/fantasy-novels-React&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;npm.start.executor&quot;: &quot;Run&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;D:\\React18\\fantasy-novels-React\\node_modules\\typescript\\lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "your-new-branch-lesson-8-loginout",
+    "last_opened_file_path": "D:/React18/fantasy-novels-React",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "npm.start.executor": "Run",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
+    "ts.external.directory.path": "D:\\React18\\fantasy-novels-React\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\React18\fantasy-novels-React\src\components\Guide" />
@@ -83,7 +102,9 @@
       <updated>1725695442759</updated>
       <workItem from="1725695443791" duration="2517000" />
       <workItem from="1725698748943" duration="4388000" />
-      <workItem from="1725927836049" duration="6385000" />
+      <workItem from="1725927836049" duration="8279000" />
+      <workItem from="1725939782587" duration="10810000" />
+      <workItem from="1726014364538" duration="8097000" />
     </task>
     <servers />
   </component>

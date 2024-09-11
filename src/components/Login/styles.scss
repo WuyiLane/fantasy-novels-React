@@ -1,0 +1,66 @@
+.login-page {
+    .tab{
+        width: 1.14rem;
+        margin: 0 auto;
+        line-height: .21rem;
+        font-size: .18rem;
+        padding: .5rem 0 .77rem 0;
+        color:#242424;
+        &-item{
+            /*在一行上*/
+            display: inline-block;
+            font-weight: bold;
+            &-left{
+                /*向右浮动*/
+                color:#73D13D;
+            }
+            &-right{
+                /*向右浮动*/
+                float: right;
+            }
+        }
+
+    }
+
+    .form{
+        margin-bottom: .6rem;
+        &-item{
+            display: flex;
+            /* 使用padding 除法计算*/
+            font-size: .16rem;
+            padding: .16rem .3rem;
+            line-height: .24rem;
+            &-title{
+                width: .48rem;
+                margin-right: .42rem;
+            }
+            &-content{
+                /* 整体撑开*/
+                flex:1;
+                border:none;
+                outline: none;
+                color:#242424;
+                &::placeholder{
+                    color:#D9D9D9;
+                }
+            }
+        }
+    }
+    .submit {
+        margin: 0 .3rem .94rem .3rem;
+        line-height: .5rem;
+        font-size: .16rem;
+        color: #FFFFFF;
+        border-radius: 25px;
+        text-align: center;
+        background: #73D13D;
+        box-shadow: 0px 6px 6px 0px #D9F7BE;
+    }
+    .notice{
+        color:#CF1322;
+        font-size: .16rem;
+        line-height: .24rem;
+        letter-spacing: 0px;
+        text-align: center;
+    }
+}
